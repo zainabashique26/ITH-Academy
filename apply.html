@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ITH</title>
+		<link rel="stylesheet" href="apply-styles.css">
+		<link rel="icon" type="image/x-icon" href="images/icon.jpg">
+	</head>	
+		<body>
+		 <header>
+    <nav class="nav-container">
+		<div id="logo-name">
+			<img src="images/logo.png" style="height: 100px; border: none;">
+			<h2 class="right-logo"><strong>Innovative Technological HUB</strong></h2>
+		</div>	
+			<div class="link-nav">
+			<ul>
+			<li><a href="index.html">Home</a></li> 
+			<li><a href="courses.html">Courses</a></li>      
+			<li><a href="experts.html">Experts</a></li>
+		  </ul>
+		</div>
+		<div class="apply-nav">	
+		  <a href="apply.html" class="btn">Apply Now</a>
+		</div>
+	</nav>
+    </header>
+			<div class="container">
+				<div class="header">
+					<h1>Enroll Today</h1>
+					<p>Join our Diploma & Short Courses, Admissions open for fall 2026.</p>
+				</div>
+				
+				<form action="/submit-application" method="POST" enctype="multipart/form-data">
+				<div class="section">
+				<h3>1. Course Section</h3>
+				<label for="course">Select Course</label>
+				<select id="course" name="course" required>
+					<option value="">DIT</option>
+					<option value="">CIT</option>
+					<option value="">Web Developement</option>
+					<option value="">Graphic Designing</option>
+					<option value="">Digital Marketing</option>
+				</select>
+				
+				<label for="batch">Preferred Batch Timing</label>
+				<select id="batch" required>
+					<option value="Batch 1:">5:00pm to 6:00pm</option>
+					<option value="Batch 2:">6:00pm to 7:00pm</option>
+					<option value="Batch 3:">7:00pm to 8:00pm</option>
+				</select>
+			</div>
+			
+			<div class="section">
+				<h3>2. Personal Details</h3>
+				<div class="row">
+					<div>
+						<label for="fullname">Full Name</label>
+						<input type="text" id="fullname" name="fullname" required>
+						</div>
+						<div>
+							<label for="cnic">CNIC / B-Form</label>
+							<input type="text" id="cnic" required>
+						</div>
+					</div>
+						<div class="row">
+							<div>
+								<label for="email">Email Address</label>
+								<input type="email" id="email" name="email" required>
+							</div>
+							<div>
+								<label for="phone">Phone / WhatsApp</label>
+								<input type="tel" id="phone" name="phone" required>
+							</div>
+						</div>
+					
+					<label for="education">Last Qualification</label>
+					<select id="education" name="education" required>
+						<option value="">Under-matric</option>
+						<option value="">Matriculaton</option>
+						<option value="">Intermediate</option>
+						
+					</select>
+				</div>
+				
+				<div class="section">
+					<h3>3. Documents Upload</h3>
+					<label for="photo">Passport Size Photo</label>
+					<input type="file" id="photo" name="doc" accept="image/*" required>
+					
+					<label for="doc">CNIC & Last Marksheet (PDF/JPG)</label>
+					<input type="file" id="doc" name="doc" accept=".pdf,.jpg,.jpeg,.png" required>
+					
+					
+					
+					<div class="note">
+						<b>Note:</b>  File size should be less than 2MB. Documents are only used for admission verification.
+					</div>
+				</div>
+				
+				<div class="secton">
+					<h3 style="color:blue;">4. Fee & Confirmation</h3>
+					<p><b>Applicaion Fee: </b>PKR 5,000 </p>
+					<p><b>Course Fee: </b>PKR 2,000</p>
+					
+					<label>
+						<input type="checkbox" required><br>
+						I confirm that all information provided is correct and I agree to academy policies.
+					</label>
+				</div>
+				
+				<button type="submit" class="btn">Submit Application</button>
+			</form>
+			
+			<div class="footer">
+				<p>Need help? Contact us at 03053213199<br>
+					<p>FACEBOOK PAGE: <a href="https://www.facebook.com/share/1EC4N9xGE8/">INNOVATIVE TECHNOLOGICAL 						HUB</a></p>
+				</p>
+				<p>Office Timing: Mon-Sat, 3PM to 8PM</p>
+			</div>
+		</div>				
+							
+					
+		</body>
+	</head>
+</html>

@@ -1,0 +1,195 @@
+body{
+	font-family:'Segoe UI', Arial, sans-serif;
+	background:#f5f7fa;
+	margin:0;
+	padding:0;
+	color:#333;
+}
+.container{
+	max-width:90%;
+	width:60%;
+	margin:auto;
+	background:#fff;
+	border-radius:12px;
+	box-shadow:0 4px 12px rgba(0,0,0,0.08);
+	padding:100px;
+	margin-top:30px;
+
+}
+.header{
+	text-align:center;
+	
+	padding-bottom:20px;
+	margin-bottom:25px;
+}
+.header h1{
+	margin:0;
+	font-size:26px;
+	color:#1a73e8;
+}
+
+.header p{
+	margin:8px 0 0;
+	color:#666;
+	font-size:15px;
+}
+
+
+header,h2 {
+  background-color: white;
+  padding: 13px 36px;
+  color:blue;
+  font-size:20px;
+ 
+}
+
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#logo-name {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+strong {
+	font-size:25px;
+	letter-spacing:2px;
+	text-transform:uppercase;
+	font-weight:bolder;
+}
+
+
+
+nav .logo {
+  display: flex; 
+  align-items: center;
+  gap: 8px; 
+}
+
+nav .logo img {
+  width: 50px;
+  height: 50px;
+}
+
+nav .logo-text {
+  color: blue; 
+  font-size: 30px;
+  margin: 0;
+  padding-left: 0; 
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: blue;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+nav .btn {
+  background: white;
+  color: blue;
+  padding: 8px 15px;
+  text-decoration: none;
+  border-radius: 7px;
+  border: 2px red solid;
+}
+
+
+
+
+
+.section{
+	margin-bottom:25px;
+}
+.section h3{
+	color:#1a73e8;
+	font-size:18px;
+	margin-bottom:12px;
+}
+label{
+	display:block;
+	margin:12px 0 6px;
+	font-weight:600;
+	font-size:14px;
+}
+input,select,textarea{
+	width:80%;
+	padding:20px 40px;
+	border:1px solid #ccc;
+	border-radius:8px;
+	font-size:14px;
+	box-sizing:border-box;
+}
+input:focus,select:focus,textarea:focus{
+	outline:none;
+	border-color:#1a73e8;
+	box-shadow:0 0 0 2px rgba(26.115,232,0.2);
+}
+
+nav a:hover, .btn:hover {
+  font-size: 18px;
+  text-decoration: none;
+  color:maroon;
+  transition:font-size 0.3s ease;
+}
+label {
+	font-size:18px;
+}
+.row{
+	display:flex;
+	gap:15px;
+}
+.row div{
+	flex:1;
+}
+.btn{
+	width:100%
+	background:#1a73e8;
+	color: #fff;
+	padding:14px;
+	border:none;
+	border-radius:8px;
+	font-size:16px;
+	font-weight:600;
+	cursor:pointer;
+	margin-top:15px;
+}
+
+.note{
+	font-size:13px;
+	color:#666;
+	background:#f0f4ff;
+	padding:10px;
+	border-radius:6px;
+	margin-top:10px;
+}
+.footer{
+	text-align:center;
+	font-size:13px;
+	color:#777;
+	margin-top:18px;
+	margin-bottom:30px;
+}
+@media(max-width:6000px){
+	.row{
+		flex-direction:column;
+		gap:0;
+	}
+}
+	
+
+	
+
+	
